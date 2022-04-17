@@ -1,0 +1,2 @@
+export const NEW_ACCOUNT = 'NEW_ACCOUNT';
+export const DELETE_ACCOUNT = 'DELETE_ACCOUNT';

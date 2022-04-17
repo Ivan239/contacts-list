@@ -1,0 +1,48 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:prettier/recommended", "airbnb", "plugin:@typescript-eslint/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  },
+  "plugins": ["prettier", "@typescript-eslint", "react"],
+  "rules": {
+    // cwp means that prettier controlling this rule
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".ts", ".jsx"] }],
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "object-curly-newline": "off", // conflict with prettier (cwp)
+    "implicit-arrow-linebreak": "off", // conflict with prettier
+    "react/jsx-one-expression-per-line": "off", // conflict with prettier
+    "indent": "off", // conflict with prettier (turned to 2)
+    "no-confusing-arrow": "off", // conflict with prettier
+    "function-paren-newline": "off", // conflict with prettier
+    "operator-linebreak": "off", // conflict with prettier
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+.editcontact
+    min-width: 360px
+    width: 30%
+    background-color: white
+    position: relative
+    border-radius: 16px
+    @media screen and (max-width: 440px)
+        width: 96%
+        min-width: 320px
+
+.form
+    padding-top: 16px
+    padding-bottom: 16px
+    height: 100%
+    display: flex
+    align-items: center
+    flex-direction: column
+
+p
+    width: 300px
+    margin: 12px 0 0 0
+    padding-left: 16px
+
+.button
+    cursor: pointer
+    border-radius: 8px
+    background-color: rgb(240, 240, 240)
+    border: none
+    padding: 12px 12px 12px 12px
+    color: rgb(24, 24, 24)
+    height: 40px
+    width: 150px
+    text-align: center
+    transition-property: background-color
+    transition-duration: 0.25s
+    transition-timing-function: ease
+
+.button:hover
+    background-color: rgb(180, 180, 180)
+
+.enter p
+    padding: 6px 0 0 10px
+    width: 36px
+
+.enter
+    width: 50%
+    height: 34px
+    display: flex
+    justify-content: center
+
+.modal
+    width: 100vw
+    height: 100vh
+    position: fixed
+    top: calc(-50vh + 50%)
+    left: calc(-50vw + 50%)
+    z-index: 2
+    background-color: rgba(0, 0, 0, 0.2)
+    display: flex
+    align-items: center
+    justify-content: center
+
+    h2
+        line-height: 30px
+        margin: 0
+
+.close
+    position: absolute
+    top: 10px
+    right: 10px
+    cursor: pointer
