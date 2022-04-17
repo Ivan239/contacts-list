@@ -1,80 +1,8 @@
 {
-  "users": [
-    {
-      "email": "ivan-obraztsov@yandex.ru",
-      "password": "$2a$10$sk9P7eX6lop7ThPIcpsRGu53f7NYfGQLa7dka60TWKAA941QiFOYi",
-      "id": 1
-    },
-    {
-      "email": "sa@gmail.com",
-      "password": "$2a$10$Rp6z0QyIlFEBsJLol/8h/.rt3lrEFup2IXQSdTv79p.CTwnpQ2/Xy",
-      "id": 2
-    },
-    {
-      "email": "ivan-obrasov@yandex.ru",
-      "password": "$2a$10$NkT7EteqPbIc6vJo.LGBAuqMHsTuP0L./F1kMl2S95PwrIY7CpDwK",
-      "id": 3
-    },
-    {
-      "email": "ser.botva@gmail.com",
-      "password": "$2a$10$sHy5ZakZVYtsJUv85aiFhugwJCFepYS9OIrgfABIdLJ8LKXFqPiVC",
-      "id": 4
-    },
-    {
-      "email": "seot56va@gmail.com",
-      "password": "$2a$10$3qDK/OUSd.mXAmZOd0J1F.gL2qmvev7w.fm.ucNZxHGLZbAidL4BC",
-      "id": 5
-    },
-    {
-      "email": "ser.botva@y.ru",
-      "password": "$2a$10$j1SqFWrTdx4BtyRQ4EUfwe2WE0EN.iINbhbSz1t.CGzoKDcZyUNMe",
-      "id": 6
-    },
-    {
-      "email": "ser.b232otva@gmail.com",
-      "password": "$2a$10$UykbHVtJ8uSInT9bhlEqrucl3wCaB/2a3aiyCReqfInJnL5icCCwy",
-      "id": 7
-    }
-  ],
+  "users": [],
   "data_1": [
     {
       "userId": 1
-    },
-    {
-      "name": " Образцов",
-      "phone": "12312",
-      "userId": 1,
-      "id": "1cf2b5f0"
-    },
-    {
-      "name": "Иван Александрович Образцов",
-      "phone": "12312",
-      "userId": 1,
-      "id": "1672f78d"
-    },
-    {
-      "name": "HUI",
-      "phone": "12312",
-      "userId": 1,
-      "id": "1895ac44"
-    },
-    {
-      "name": "Иван Александрович Образцов",
-      "phone": "12312",
-      "userId": 1,
-      "id": "16474611"
-    },
-    {
-      "name": "Иван Александрович Образцов",
-      "phone": "12312",
-      "userId": 1,
-      "id": "18283f4d"
-    },
-    {
-      "name": "Иван Александрович Образцов",
-      "phone": "12312",
-      "userId": 1,
-      "id": "14962229"
     }
   ],
   "data_2": [
@@ -90,24 +18,6 @@
   "data_4": [
     {
       "userId": 4
-    },
-    {
-      "name": "Иван Александрович Образцов",
-      "phone": "89675998343",
-      "userId": 4,
-      "id": 1
-    },
-    {
-      "name": "Иввн Образцов",
-      "phone": "89675998343",
-      "userId": 4,
-      "id": 4
-    },
-    {
-      "name": "Иввн Образцов",
-      "phone": "89675998343",
-      "userId": 4,
-      "id": 3
     }
   ],
   "data_5": [
@@ -118,35 +28,11 @@
   "data_6": [
     {
       "userId": 6
-    },
-    {
-      "name": "Ivan Obraztsovs",
-      "phone": "89675998343",
-      "userId": 6,
-      "id": "14f8e6bb"
     }
   ],
   "data_7": [
     {
       "userId": 7
-    },
-    {
-      "name": "Ivan Obraztsov",
-      "phone": "89675998343",
-      "userId": 7,
-      "id": "1c20e5c8"
-    },
-    {
-      "name": "huesos",
-      "phone": "1312312",
-      "userId": 7,
-      "id": "179a98f2"
-    },
-    {
-      "name": "Иввн Образцов",
-      "phone": "1341234",
-      "userId": 7,
-      "id": "12b3da49"
     }
   ],
   "data_8": [
